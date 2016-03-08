@@ -1,28 +1,16 @@
 # gitcheatsheet
 Cheat sheet pour git
 
-Rebase quand on pull au lieu de merger
-======================================
+Historique propre (push.rebase)
+===============================
 Histoire de garder les historiques propres quand on pull
 ```sh
 git config --global push.rebase true
 ```
 
-Créer une branche
-=================
-Création de la branche:
-```sh
-git checkout -b nouvelle_branche
-```
-
-Si vous voulez poussez cette branche sur un remote par exemple origin:
-```sh
-git push origin nouvelle_branche
-```
-
-Tester qu'une branche merge correctement
-========================================
-Par exemple pour tester que vous pourrez merger votre_branche avec master
+Branche mergeable ?
+===================
+Pour tester que vous pourrez merger votre_branche avec master
 ```sh
 git checkout master
 git merge --no-ff --no-commit votre_branche

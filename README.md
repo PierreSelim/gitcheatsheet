@@ -1,5 +1,7 @@
 # gitcheatsheet
-Cheat sheet pour git
+Cheat sheet pour git.
+
+Une page interessante à visiter avant https://gist.github.com/aquelito/8596717
 
 Historique propre (push.rebase)
 ===============================
